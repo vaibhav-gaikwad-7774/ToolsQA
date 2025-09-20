@@ -1,7 +1,6 @@
-package vehicle;
-
-	public class TestModifiers {
-
+package javaPracticeProgram;
+         	import vehicle.Car;
+     public class TestModifiers {
 	public static void main(String[] args) {
 		Car Toyota = new Car();
 		Toyota.sModel="Camry";
