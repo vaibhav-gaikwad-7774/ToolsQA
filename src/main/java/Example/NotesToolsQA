@@ -1,0 +1,94 @@
+Java - 
+
+
+
+package Example;
+
+public class BooleanTestExercise {
+
+	public static void main(String[] args) {
+		boolean testresult;
+		
+		testresult = true;
+		
+		System.out.println("Test Result is: " + testresult);
+		
+		testresult = false;
+		
+		System.out.println("Test Result is: " + testresult);
+
+		
+		
+
+	}
+
+}
+
+
+
+package Example;
+
+public class IntegerTestExersice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int carSpeed;
+		
+		carSpeed = 20;
+		
+		System.out.println("The carspeed: "+ carSpeed);
+		
+		
+		carSpeed = carSpeed + 20;
+		
+		System.out.println("The carspeed: "+ carSpeed);
+
+		
+		
+		
+
+	}
+
+}
+
+
+
+package Example;
+
+public class CharTestExercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char a;
+		
+		a = 'p';
+		System.out.println(a);
+		
+
+	}
+
+}
+
+
+
+package Example;
+
+public class DecalreVar {
+	public static void main(String[] args) {
+		
+		String sName = "vaibhav";
+		int iNum = 19;
+		boolean bResult;
+		System.out.println(sName + iNum);
+	}
+
+}
+
+
+
+
+
+
+
+
