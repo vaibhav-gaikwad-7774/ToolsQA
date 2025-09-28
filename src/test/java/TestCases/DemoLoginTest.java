@@ -42,8 +42,21 @@ public class DemoLoginTest {
 //			System.out.println("The URL is matched Successfully");
 		}
 		
+		@Test
+		public void HtTest() {
+		WebDriver driver = new SafariDriver();
+		driver.get("https://www.hindustantimes.com");
+		String title = driver.getTitle();
+		System.out.println("Title: " + title);
+		if(title.contains("Hindustan Times")) {
+		    System.out.println("Test Passed");
+		} else {
+		    System.out.println("Test Failed");
+		}
+		driver.quit();
 		
 		
+		}
 		
 }
 		

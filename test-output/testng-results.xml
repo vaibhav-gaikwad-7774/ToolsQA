@@ -2,15 +2,15 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-22T07:53:10Z" name="Default suite" finished-at="2025-09-22T07:53:23Z" duration-ms="12328">
+  <suite started-at="2025-09-22T08:01:48Z" name="Default suite" finished-at="2025-09-22T08:02:13Z" duration-ms="25550">
     <groups>
     </groups>
-    <test started-at="2025-09-22T07:53:10Z" name="Default test" finished-at="2025-09-22T07:53:23Z" duration-ms="12328">
+    <test started-at="2025-09-22T08:01:48Z" name="Default test" finished-at="2025-09-22T08:02:13Z" duration-ms="25550">
       <class name="TestCases.DemoLoginTest">
-        <test-method signature="login()[pri:0, instance:TestCases.DemoLoginTest@75437611]" started-at="2025-09-22T13:23:10Z" name="login" finished-at="2025-09-22T13:23:23Z" duration-ms="12321" status="PASS">
+        <test-method signature="HtTest()[pri:0, instance:TestCases.DemoLoginTest@350aac89]" started-at="2025-09-22T13:31:48Z" name="HtTest" finished-at="2025-09-22T13:32:13Z" duration-ms="25544" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
+        </test-method> <!-- HtTest -->
       </class> <!-- TestCases.DemoLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

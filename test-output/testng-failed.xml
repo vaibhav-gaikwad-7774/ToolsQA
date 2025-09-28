@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCases.DemoLoginTest">
         <methods>
-          <include name="URLmatched"/>
+          <include name="HtTest"/>
         </methods>
       </class> <!-- TestCases.DemoLoginTest -->
     </classes>
