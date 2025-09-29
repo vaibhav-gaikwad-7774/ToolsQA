@@ -9,7 +9,7 @@ public class Logical_Operators {
 		
 		System.out.println("check if the both boolean variable are true: "+ (output1 && output2));
 		
-		System.out.println("check if the both boolean variable are true: "+ output2 );
+		System.out.println("check if the both boolean variable are true: "+ (output1 && output2) );
 
 	}
 
