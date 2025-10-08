@@ -1,9 +1,8 @@
-package Constructors;
+package classObject;
 
 public class Car {
-	//Class Member Variables & Fields
 	String sModel;
-    int iGear;
+	int iGear;
     int iHighestSpeed;
     String sColor;
     int iMake;
@@ -11,14 +10,7 @@ public class Car {
     String sTransmission;
     int iTyres;
     int iDoors;
-
-    //Default values set in Constructor
-    public Car(){
-    	sModel = "Camry";
-    	iMake = 2014;
-    	bLeftHandDrive = true;
-    }
-
+    
     public void DisplayCharacterstics(){
     	System.out.println("Model of the Car: " +  sModel);
     	System.out.println("Number of gears in the Car: " +  iGear);
