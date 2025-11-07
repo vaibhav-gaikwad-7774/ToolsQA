@@ -8,6 +8,8 @@ public class practiceTest2 {
 		WebDriver driver = new SafariDriver();
 		
 		String appurl = driver.getCurrentUrl();
+		
+		
 		System.out.println(appurl);
 		
 		

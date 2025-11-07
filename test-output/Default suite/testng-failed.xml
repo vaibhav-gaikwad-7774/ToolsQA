@@ -3,18 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AutomationSelenium.credentialTests">
+      <class name="BookStoreProject.LoginTest">
         <methods>
+          <include name="startup"/>
           <include name="login"/>
-          <include name="login3"/>
-          <include name="login6"/>
-          <include name="login4"/>
-          <include name="login1"/>
-          <include name="login5"/>
           <include name="tearDown"/>
-          <include name="login2"/>
         </methods>
-      </class> <!-- AutomationSelenium.credentialTests -->
+      </class> <!-- BookStoreProject.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
