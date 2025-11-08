@@ -6,7 +6,7 @@
       <class name="BookStoreProject.LoginTest">
         <methods>
           <include name="startup"/>
-          <include name="login"/>
+          <include name="BookStoreRedirect"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- BookStoreProject.LoginTest -->
